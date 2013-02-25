@@ -1,5 +1,5 @@
 all:
-	g++ main.cpp -o hello
+	gcc main.c -o hello
 
 clean:
 	rm -f hello
