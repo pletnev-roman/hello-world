@@ -1,5 +1,7 @@
+#CROSS_COMPILE=gcc
+
 all:
-	gcc main.c -o hello
+	$(CROSS_COMPILE)gcc main.c -o hello
 
 clean:
 	rm -f hello
